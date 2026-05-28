@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Lokeshraj M — Computer Science student specializing in Data Analytics, ETL Pipelines, and AI-integrated applications. Explore my projects, skills, and experience.">
+  <meta name="keywords" content="Lokeshraj M, Portfolio, Data Analytics, Python, ETL, AI, Computer Science, Developer">
+  <meta name="author" content="Lokeshraj M">
+  <meta property="og:title" content="Lokeshraj M — Data Analytics & AI Developer Portfolio">
+  <meta property="og:description" content="Computer Science student at Karunya Institute with expertise in Python, SQL, Apache Airflow, and AI integration.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#090909">
+  <title>Lokeshraj M — Data Analytics &amp; AI Developer</title>
+
+  <!-- Favicon (inline SVG data URI) -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23090909'/><text x='50%' y='63%' font-family='Outfit, sans-serif' font-weight='800' font-size='40' fill='%23d4af37' text-anchor='middle'>MLR</text></svg>">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Lucide Icons (lightweight) -->
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js" defer></script>
+</head>
+<body>
+
+  <!-- ── Background Ambient Blobs ── -->
+  <div class="bg-blobs" aria-hidden="true">
+    <div class="blob"></div>
+    <div class="blob"></div>
+    <div class="blob"></div>
+  </div>
+
+  <!-- ══════════════════════════════════════════════════════
+       NAVIGATION
+       ══════════════════════════════════════════════════════ -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#hero" class="nav-logo">&lt;MLR /&gt;</a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+  <div class="nav-overlay" id="navOverlay"></div>
+
+  <!-- ══════════════════════════════════════════════════════
+       HERO SECTION
+       ══════════════════════════════════════════════════════ -->
+  <section class="hero" id="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="dot"></span>
+          Open to Opportunities
+        </div>
+        <h1>Hi, I'm <span class="gradient-text">Lokeshraj M</span></h1>
+        <p class="hero-subtitle">Data Analytics & AI Developer</p>
+        <p class="hero-desc">
+          Second-year Computer Science student building data analytics tools and AI-integrated applications. Turning raw data into intelligent, actionable insights.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">
+            <i data-lucide="folder-open" style="width:18px;height:18px;"></i>
+            View Projects
+          </a>
+          <a href="#contact" class="btn btn-outline">
+            <i data-lucide="send" style="width:18px;height:18px;"></i>
+            Get in Touch
+          </a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://github.com/Lokeshraj2006" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/lokeshraj2006/" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+          <a href="mailto:lokeshrajm2496@gmail.com" class="social-icon" aria-label="Email">
+            <i data-lucide="mail" style="width:20px;height:20px;"></i>
+          </a>
+          <a href="tel:+917418142496" class="social-icon" aria-label="Phone">
+            <i data-lucide="phone" style="width:20px;height:20px;"></i>
+          </a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-avatar-wrapper">
+          <div class="hero-avatar-ring"></div>
+          <div class="hero-avatar">
+            <img src="profile.jpg?v=2" alt="Lokeshraj M — Profile Photo" class="avatar-img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════════
+       ABOUT SECTION
+       ══════════════════════════════════════════════════════ -->
+  <section id="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">
+          <span class="line"></span>
+          About Me
+          <span class="line"></span>
+        </div>
+        <h2 class="section-title">Passion Meets <span class="gradient-text">Purpose</span></h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            I'm <strong>Lokeshraj M</strong>, a second-year <strong>B.Tech Computer Science</strong> student at
+            <strong>Karunya Institute of Technology and Sciences</strong>, Coimbatore. I'm passionate about
+            transforming raw data into meaningful stories and building tools that make complex data accessible.
+          </p>
+          <p>
+            With hands-on experience in <strong>Python, SQL, Apache Airflow, and Docker</strong>, I've built
+            data analytics tools, ETL pipelines, and AI-integrated applications. I thrive at the intersection
+            of <strong>data engineering</strong> and <strong>artificial intelligence</strong>.
+          </p>
+          <p>
+            Currently seeking internship opportunities where I can apply my analytical mindset and contribute
+            to real-world data solutions while continuously expanding my skill set.
+          </p>
+
+          <div class="about-stats">
+            <div class="stat-card">
+              <div class="stat-number">3+</div>
+              <div class="stat-label">Projects Built</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">4+</div>
+              <div class="stat-label">Simulations</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">8+</div>
+              <div class="stat-label">Certifications</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="education-timeline reveal">
+          <div class="edu-item">
+            <div class="edu-year">2024 – 2028</div>
+            <h4>Karunya Institute of Technology and Sciences</h4>
+            <p>Bachelor of Technology — Computer Science</p>
+            <span class="edu-score">CGPA: 6.98</span>
+          </div>
+          <div class="edu-item">
+            <div class="edu-year">Jun 2022 – Mar 2024</div>
+            <h4>Maharishi International Residential School</h4>
+            <p>Higher Secondary Certificate (HSC)</p>
+            <span class="edu-score">71%</span>
+          </div>
+          <div class="edu-item">
+            <div class="edu-year">Jun 2012 – May 2022</div>
+            <h4>Vailankanni Public School, Krishnagiri</h4>
+            <p>Secondary School Leaving Certificate (SSLC)</p>
+            <span class="edu-score">89%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════════
+       SKILLS SECTION
+       ══════════════════════════════════════════════════════ -->
+  <section id="skills">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">
+          <span class="line"></span>
+          Technical Skills
+          <span class="line"></span>
+        </div>
+        <h2 class="section-title">My <span class="gradient-text">Tech Stack</span></h2>
+      </div>
+
+      <div class="skills-grid">
+
+        <div class="skill-category reveal">
+          <div class="skill-category-header">
+            <div class="skill-category-icon"><i data-lucide="code-xml" style="color:#090909;width:20px;height:20px;"></i></div>
+            <h3>Languages</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">SQL</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal">
+          <div class="skill-category-header">
+            <div class="skill-category-icon"><i data-lucide="bar-chart-3" style="color:#090909;width:20px;height:20px;"></i></div>
+            <h3>Data & Analytics</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Pandas</span>
+            <span class="skill-tag">NumPy</span>
+            <span class="skill-tag">Streamlit</span>
+            <span class="skill-tag">Plotly</span>
+            <span class="skill-tag">Tableau</span>
+            <span class="skill-tag">Excel</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal">
+          <div class="skill-category-header">
+            <div class="skill-category-icon"><i data-lucide="cog" style="color:#090909;width:20px;height:20px;"></i></div>
+            <h3>ETL & Pipelines</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Apache Airflow</span>
+            <span class="skill-tag">Docker</span>
+            <span class="skill-tag">PostgreSQL</span>
+            <span class="skill-tag">Firebase</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal">
+          <div class="skill-category-header">
+            <div class="skill-category-icon"><i data-lucide="link-2" style="color:#090909;width:20px;height:20px;"></i></div>
+            <h3>APIs & Tools</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Gemini AI API</span>
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">GitHub</span>
+            <span class="skill-tag">REST APIs</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal">
+          <div class="skill-category-header">
+            <div class="skill-category-icon"><i data-lucide="brain" style="color:#090909;width:20px;height:20px;"></i></div>
+            <h3>Concepts</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Data Modelling</span>
+            <span class="skill-tag">Business Intelligence</span>
+            <span class="skill-tag">EDA</span>
+            <span class="skill-tag">NLP</span>
+            <span class="skill-tag">Analytical Reporting</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════════
+       PROJECTS SECTION
+       ══════════════════════════════════════════════════════ -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">
+          <span class="line"></span>
+          Featured Projects
+          <span class="line"></span>
+        </div>
+        <h2 class="section-title">Things I've <span class="gradient-text">Built</span></h2>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- Project 1 -->
+        <div class="project-card reveal">
+          <div class="project-icon"><i data-lucide="cpu" style="color:#090909;width:24px;height:24px;"></i></div>
+          <h3>AI Data Analytics Tool</h3>
+          <p class="project-date">Sep 2025 – Oct 2025</p>
+          <p>
+            Built a Streamlit web app enabling natural-language queries on business data, returning AI-generated insights via Gemini API in under 10 seconds per query.
+          </p>
+          <p>
+            Created Plotly dashboards for KPIs (revenue trends, category performance, time-series), improving readability for non-technical users.
+          </p>
+          <div class="project-tech">
+            <span>Python</span>
+            <span>Streamlit</span>
+            <span>Plotly</span>
+            <span>Gemini API</span>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card reveal">
+          <div class="project-icon"><i data-lucide="clapperboard" style="color:#090909;width:24px;height:24px;"></i></div>
+          <h3>F1 Movie Trailer — Sentiment Analysis</h3>
+          <p class="project-date">Jul 2025</p>
+          <p>
+            Scraped and analysed 1,200+ YouTube comments using NLP (tokenisation, stopword removal) to classify sentiment — surfacing ~75% positive audience response.
+          </p>
+          <p>
+            Visualised sentiment distribution and identified trending discussion themes (cast, action scenes) for a structured insight report.
+          </p>
+          <div class="project-tech">
+            <span>Python</span>
+            <span>NLP</span>
+            <span>NLTK</span>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card reveal">
+          <div class="project-icon"><i data-lucide="workflow" style="color:#090909;width:24px;height:24px;"></i></div>
+          <h3>ETL-Orchestrator</h3>
+          <p class="project-date">Dec 2025</p>
+          <p>
+            Built a config-driven ETL pipeline in Apache Airflow processing 50k+ CSV rows daily into a 6-table PostgreSQL schema, with automated validation catching ~5% bad records.
+          </p>
+          <p>
+            Containerised the pipeline with Docker, cutting environment setup from hours to under 5 minutes and making it fully deployment-ready.
+          </p>
+          <div class="project-tech">
+            <span>Apache Airflow</span>
+            <span>PostgreSQL</span>
+            <span>Docker</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════════
+       EXPERIENCE SECTION
+       ══════════════════════════════════════════════════════ -->
+  <section id="experience">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">
+          <span class="line"></span>
+          Experience
+          <span class="line"></span>
+        </div>
+        <h2 class="section-title">Where I've <span class="gradient-text">Worked</span></h2>
+      </div>
+
+      <div class="experience-list">
+
+        <!-- Internship -->
+        <div class="exp-card reveal">
+          <div class="exp-header">
+            <div>
+              <h3>Python Programming Intern</h3>
+              <span class="exp-company">Codmetric</span>
+              <span class="exp-type-badge">Internship</span>
+            </div>
+            <span class="exp-date">May 2025 – Jun 2025</span>
+          </div>
+          <ul>
+            <li>Developed 5+ Python CLI applications covering core programming concepts including OOP, modular design, input validation, and robust error handling.</li>
+            <li>Managed version control using Git and GitHub, structuring commits, branching, and managing project workflows across the internship duration.</li>
+          </ul>
+        </div>
+
+        <!-- Tata Group -->
+        <div class="exp-card reveal">
+          <div class="exp-header">
+            <div>
+              <h3>Data Analytics Job Simulation</h3>
+              <span class="exp-company">Tata Group (via Forage)</span>
+              <span class="exp-type-badge">Simulation</span>
+            </div>
+            <span class="exp-date">Jun 2025</span>
+          </div>
+          <ul>
+            <li>Completed an AI-powered analytics simulation for the Tata iQ Financial Services team, performing EDA with GenAI tools to assess data quality and identify customer delinquency risk indicators.</li>
+            <li>Proposed a no-code predictive modelling approach and designed a high-level AI-driven collections strategy incorporating agentic AI, automation, ethical AI principles, and compliance considerations.</li>
+          </ul>
+        </div>
+
+        <!-- TCS -->
+        <div class="exp-card reveal">
+          <div class="exp-header">
+            <div>
+              <h3>Data Visualisation Simulation</h3>
+              <span class="exp-company">Tata Consultancy Services (via Forage)</span>
+              <span class="exp-type-badge">Simulation</span>
+            </div>
+            <span class="exp-date">May 2025</span>
+          </div>
+          <ul>
+            <li>Designed executive-level data visualisations for a TCS case scenario, translating complex datasets into clear charts that supported senior leadership decision-making.</li>
+          </ul>
+        </div>
+
+        <!-- Deloitte -->
+        <div class="exp-card reveal">
+          <div class="exp-header">
+            <div>
+              <h3>Data Analytics Job Simulation</h3>
+              <span class="exp-company">Deloitte Australia (via Forage)</span>
+              <span class="exp-type-badge">Simulation</span>
+            </div>
+            <span class="exp-date">Jun 2025</span>
+          </div>
+          <ul>
+            <li>Built a Tableau dashboard to surface key business patterns, and used Excel to clean, classify, and analyse structured datasets, drawing actionable conclusions for stakeholders.</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════════
+       CERTIFICATIONS SECTION
+       ══════════════════════════════════════════════════════ -->
+  <section id="certifications">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">
+          <span class="line"></span>
+          Certifications
+          <span class="line"></span>
+        </div>
+        <h2 class="section-title">Credentials & <span class="gradient-text">Achievements</span></h2>
+      </div>
+
+      <div class="certs-grid">
+
+        <div class="cert-card reveal">
+          <div class="cert-icon"><i data-lucide="award" style="color:#090909;width:18px;height:18px;"></i></div>
+          <div class="cert-info">
+            <h4>Data Science & Analytics</h4>
+            <p>HP LIFE</p>
+            <div class="cert-year">2025</div>
+          </div>
+        </div>
+
+        <div class="cert-card reveal">
+          <div class="cert-icon"><i data-lucide="sparkles" style="color:#090909;width:18px;height:18px;"></i></div>
+          <div class="cert-info">
+            <h4>GenAI-Powered Data Analytics Simulation</h4>
+            <p>Tata Group / Forage</p>
+            <div class="cert-year">Jun 2025</div>
+          </div>
+        </div>
+
+        <div class="cert-card reveal">
+          <div class="cert-icon"><i data-lucide="pie-chart" style="color:#090909;width:18px;height:18px;"></i></div>
+          <div class="cert-info">
+            <h4>Data Visualisation Simulation</h4>
+            <p>Tata Consultancy Services / Forage</p>
+            <div class="cert-year">May 2025</div>
+          </div>
+        </div>
+
+        <div class="cert-card reveal">
+          <div class="cert-icon"><i data-lucide="line-chart" style="color:#090909;width:18px;height:18px;"></i></div>
+          <div class="cert-info">
+            <h4>Data Analytics Simulation</h4>
+            <p>Deloitte Australia / Forage</p>
+            <div class="cert-year">Jun 2025</div>
+          </div>
+        </div>
+
+        <div class="cert-card reveal">
+          <div class="cert-icon"><i data-lucide="terminal" style="color:#090909;width:18px;height:18px;"></i></div>
+          <div class="cert-info">
+            <h4>Python Programming Internship</h4>
+            <p>Codmetric</p>
+            <div class="cert-year">Jun 2025</div>
+          </div>
+        </div>
+
+        <div class="cert-card reveal">
+          <div class="cert-icon"><i data-lucide="globe" style="color:#090909;width:18px;height:18px;"></i></div>
+          <div class="cert-info">
+            <h4>CCNA: Introduction to Networks</h4>
+            <p>Cisco</p>
+            <div class="cert-year">2026</div>
+          </div>
+        </div>
+
+        <div class="cert-card reveal">
+          <div class="cert-icon"><i data-lucide="router" style="color:#090909;width:18px;height:18px;"></i></div>
+          <div class="cert-info">
+            <h4>CCNA: Switching, Routing & Wireless</h4>
+            <p>Cisco</p>
+            <div class="cert-year">2026</div>
+          </div>
+        </div>
+
+        <div class="cert-card reveal">
+          <div class="cert-icon"><i data-lucide="shield-check" style="color:#090909;width:18px;height:18px;"></i></div>
+          <div class="cert-info">
+            <h4>CCNA: Enterprise Networking, Security & Automation</h4>
+            <p>Cisco</p>
+            <div class="cert-year">2026</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════════
+       CONTACT SECTION
+       ══════════════════════════════════════════════════════ -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-label">
+          <span class="line"></span>
+          Get In Touch
+          <span class="line"></span>
+        </div>
+        <h2 class="section-title">Let's <span class="gradient-text">Connect</span></h2>
+      </div>
+
+      <div class="contact-wrapper">
+        <div class="contact-info reveal">
+          <h3>Have a project in mind?</h3>
+          <p>
+            I'm always open to discussing new opportunities, interesting projects, or just having a chat
+            about data, AI, and technology. Feel free to reach out!
+          </p>
+          <div class="contact-links">
+            <a href="mailto:lokeshrajm2496@gmail.com" class="contact-link">
+              <div class="contact-link-icon">
+                <i data-lucide="mail" style="width:18px;height:18px;"></i>
+              </div>
+              <span>lokeshrajm2496@gmail.com</span>
+            </a>
+            <a href="tel:+917418142496" class="contact-link">
+              <div class="contact-link-icon">
+                <i data-lucide="phone" style="width:18px;height:18px;"></i>
+              </div>
+              <span>+91 7418142496</span>
+            </a>
+            <a href="https://www.linkedin.com/in/lokeshraj2006/" target="_blank" rel="noopener noreferrer" class="contact-link">
+              <div class="contact-link-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+              </div>
+              <span>linkedin.com/in/lokeshraj2006</span>
+            </a>
+            <a href="https://github.com/Lokeshraj2006" target="_blank" rel="noopener noreferrer" class="contact-link">
+              <div class="contact-link-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+              </div>
+              <span>github.com/Lokeshraj2006</span>
+            </a>
+          </div>
+        </div>
+
+        <form class="contact-form reveal" id="contactForm">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="John Doe" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" placeholder="john@example.com" required>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Project Collaboration">
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Tell me about your idea..." rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-submit">
+            <i data-lucide="send" style="width:18px;height:18px;"></i>
+            Send Message
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════════════
+       FOOTER
+       ══════════════════════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-text">
+        &copy; 2025 <span class="gradient-text">Lokeshraj M</span>. Built with passion & code.
+      </p>
+      <div class="footer-links">
+        <a href="https://github.com/Lokeshraj2006" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/lokeshraj2006/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="mailto:lokeshrajm2496@gmail.com">Email</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+</html>
